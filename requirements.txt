@@ -1,0 +1,6 @@
+bcrypt
+pandas
+google-auth-oauthlib
+google-api-python-client
+psutil
+getmac
