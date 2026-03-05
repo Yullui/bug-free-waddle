@@ -14,7 +14,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
 # --- 1. CONFIG & STANDARDS ---
-st.set_page_config(page_title='josh ohmes | SOC Command', layout="wide")
+st.set_page_config(page_title='SOC Command', layout="wide")
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 ADMIN_IDENTITY = "joshohmes@proton.me"
 LOCKOUT_THRESHOLD = 3
@@ -180,5 +180,6 @@ else:
         "System Health": [health_pg],
         "Support": [help_pg]
     })
+
 
 pg.run()
