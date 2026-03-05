@@ -11,7 +11,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
 # --- 1. CONFIG & STANDARDS ---
-st.set_page_config(page_title='josh ohmes | SOC Fortress', layout="wide")
+st.set_page_config(page_title='SOC Fortress', layout="wide")
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 
 # --- 2. THE RECOVERY LISTENER (CRITICAL FOR WEB) ---
@@ -168,3 +168,4 @@ else:
     pg = st.navigation({"Operations": [blue_pg, red_pg]})
 
 pg.run()
+
